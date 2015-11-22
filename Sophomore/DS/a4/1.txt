@@ -1,0 +1,126 @@
+Algorithm: Simple QuickSort
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 5.84E-4 sec.
+
+Algorithm: Simple QuickSort
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 2.0E-5 sec.
+
+Algorithm: Simple QuickSort
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 3.4E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 8.8E-4 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 2.0E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 1.9E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 6.33E-4 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 1.7E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 1.2E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 5.4E-4 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 1.6E-5 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 2.9E-5 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 5.89E-4 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 2.5E-5 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 2.3E-5 sec.
+
+Algorithm: MergeSort
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 2.2E-5 sec.
+
+Algorithm: MergeSort
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 2.5E-5 sec.
+
+Algorithm: MergeSort
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 2.1E-5 sec.
+
+Algorithm: InsertionSort
+Array Size: 19
+Order: Sorted
+Number of Trials: 1
+Average Time: 1.5E-5 sec.
+
+Algorithm: InsertionSort
+Array Size: 19
+Order: Random
+Number of Trials: 1
+Average Time: 2.0E-5 sec.
+
+Algorithm: InsertionSort
+Array Size: 19
+Order: Reversed
+Number of Trials: 1
+Average Time: 2.9E-5 sec.
+

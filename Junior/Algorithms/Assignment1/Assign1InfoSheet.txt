@@ -1,0 +1,24 @@
+CS 1501 Assignment Information Sheet
+
+Name: Andrew Beers
+
+Assignment Number: 1
+
+Program Due Date: 6/5
+
+Handed in Date: 6/5
+
+JDK Version: 1.6
+
+Source code file name(s): Assignment12.java, DLB.java, MyDictionary.java
+
+Compiled (.jar or .class) file name(s): Assignment12.class, DLB.class, DLB$DLBnode.class, MyDictionary.class
+
+Does your program compile without error?: yes
+
+Does your program run without error?: yes
+
+Additional comments (including problems and extra credit): -I arbitrarily initialize my Solutions array list to size 20, this should be the size of the longest string in the input string files, I was getting an array index out of bounds exception and this solved it, perhaps not in the most graceful way. 
+-I did some amount of extra credit, adding a timer and running the program 5 times in a row printing out the results for each run. I then took the average of these results and compared to see how each implementation performed.
+
+

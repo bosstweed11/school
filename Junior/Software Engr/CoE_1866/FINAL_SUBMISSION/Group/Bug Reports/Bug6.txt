@@ -1,0 +1,8 @@
+Defect:Trains weight not accounted for
+Defect Number: 6
+Name of tester: Andrew Beers
+Date: 12/10
+Resolution: Added Train weight into equation
+Programmer who repaired the defect: Caleb Dusenbery
+Verification of Resolution Correctness: Andrew Beers
+Date of Verification: 12/10

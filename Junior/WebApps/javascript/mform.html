@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test of Multiple Forms</title>
+<script type = "text/javascript">
+// CS 1520 Summer 2012
+// Simple demo of using multiple forms and testing submission with
+// Javascript
+
+function checkFields(formnum)
+{
+   // Note how the form is obtained in an object-based way, and how the fields
+   // check are accessed in a similar way.
+   theform = document.forms[formnum];
+   if (theform.id.value == "")
+   {
+       alert(theform.name + " requires an id.");
+       theform.id.focus();
+       return false;
+   }
+   if (theform.pass.value == "")
+   {
+       alert(theform.name + " requires a password");
+       theform.pass.focus();
+       return false;
+   }
+   return true;
+}
+</script>
+</head>
+<body>
+<script type = "text/javascript">
+   alert("About to render form0");
+</script>
+<form name = "form0" 
+      action="mform.php" 
+      method="POST"
+      onSubmit = "return checkFields(0)">
+<h2>Enter your Form0 data below:</h2>
+<b>ID: <input type = "text" name = "id" size = "30"></b>
+<br />
+<b>Password: <input type = "password" name = "pass" size = "30"></b>
+<br />
+<input type = "submit" name = "submit" value = "Submit 0">
+</form>
+<br />
+<script type = "text/javascript">
+   alert("About to render form1");
+</script>
+<form name = "form1" 
+      action="mform.php" 
+      method="POST"
+      onSubmit = "return checkFields(1)">
+<h2>Enter your Form1 data below:</h2>
+<b>ID: <input type = "text" name = "id" size = "30"></b>
+<br />
+<b>Password: <input type = "password" name = "pass" size = "30"></b>
+<br />
+<input type = "submit" name = "submit" value = "Submit 1">
+</form>
+<br />
+<script type = "text/javascript">
+   alert("About to render form2");
+</script>
+<form name = "form2" 
+      action="mform.php" 
+      method="POST"
+      onSubmit = "return checkFields(2)">
+<h2>Enter your Form2 data below:</h2>
+<b>ID: <input type = "text" name = "id" size = "30"></b>
+<br />
+<b>Password: <input type = "password" name = "pass" size = "30"></b>
+<br />
+<input type = "submit" name = "submit" value = "Submit 2">
+</form>
+</body>
+</html>

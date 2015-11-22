@@ -1,0 +1,68 @@
+CS 1566 FINAL PROJECT - Firework Display
+
+Going Out With a Bang - An interactive fireworks show
+
+Basic Idea:
+	There are a few modes we'd like to implement. In order of completion (and importance), they are:
+	1. A fireworks show, with accompanying (awesome) music, where the user fires off randomly generated fireworks.
+	2. Recording/viewing of fireworks shows to spec files that can be read by other users.
+	3. A 'fireworks builder' mode, where the user can adjust every aspect of the launch, trail, burst, sound, pattern, color, etc. to get just the right look.
+	4. An interactive 'draw your own pattern' mode, where the user can essentially draw a shape (like a heart, or the letters 'PITT') and have fireworks explode in that image.
+	
+How?
+	1.) 5-10 firing nozzles
+	2.) nozzles are achieved with cylinders
+	3.) Fireworks are generated from these nozzles
+	4.) Firework 'trail' is achieved with a smaller cylinder(or sphere with a trail?)
+	5.) Sound of shape is played when burst occurs
+	6.) Burst is achieved by creating many spheres at burst point with shape direction and velocity
+	7.) The burst's color, brightness, etc change as appropriate from the beginning to end of the explosion
+	7.) Fireworks have shapes including BIG, DENSE, WILLOW, CIRCULAR, with more to come
+	
+Functionality?
+	1.) User selects active cone with keyboard keys 1234567890 or qwertyuiop, or whichever keys they prefer
+	2.) User hits space bar to set off a firework
+	3.) If not set, the shape and color of the firework is random
+	4.) Keyboard options to set shape and color
+	5.) Speed and height of firework and burst location respectively are randomized within a buffer zone dependent on the shape
+	
+	
+Roles
+	
+	Zach-
+		Implementation of firework class and the 'explosion' effect
+		Saving/Loading of firework show
+		my_keyboard functionality, including user preferences
+	
+	Andy-
+		Tweaking burst variable values to produce 5-10 standard firework types
+		Determing buffer for randomized fireworks - height, radius, etc
+		
+	Both-
+		OpenAL
+		Fireworks builder mode
+		Any extras
+			
+	
+Completely Finalized and Accurate Schedule
+
+	November 13 (at the earliest)
+		Turn in hw6, heave a huge sigh, start working a bit on the final project.
+
+	Nov. 20 (at the the latest)
+		Turn in hw6, heave an even bigger sigh, start working quite a bit on the final project.
+
+	Nov. 24
+		Finish the basic skeleton, have a working prototype of a firework launching and exploding. Revel in awesomeness, and how easy the rest will be.
+
+	December 1
+		Finish the basic program (listed under Basic Idea - 1), realize that it wasn't quite as easy as expected, but know that surely the rest of the features will be a breeze.
+
+	Dec. 6
+		After 4 straight sleepless nights, finish adding additional features, begin polishing what we have and fixing any remaining bugs (as if there will be bugs..).
+
+	Dec. 9
+		Turn in awesome, finished project. Spend all night recording brilliant, synchronized firework displays rivaling Disney World.
+
+	Dec. 10
+		Present the awesome project to the world, bask in the glory of finishing such a large project. Realize it's finals week, silently let a single tear out.

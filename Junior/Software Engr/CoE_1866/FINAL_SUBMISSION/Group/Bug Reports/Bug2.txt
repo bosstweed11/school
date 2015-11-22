@@ -1,0 +1,8 @@
+Defect:Speed Controls are not Increase/Decrease speed
+Defect Number: 2
+Name of tester: Caleb Dusenbery
+Date: 12/6
+Resolution: Set Speed command allowing the train to pursue a speed on its own
+Programmer who repaired the defect: Andrew Beers
+Verification of Resolution Correctness: Caleb Dusenbery
+Date of Verification: 12/7

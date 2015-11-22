@@ -1,0 +1,8 @@
+Defect:Switching Error
+Defect Number: 13
+Name of tester: Zach Olawski
+Date: 12/12
+Resolution: Changed algorithm and pointers switching track switches based on a trains direction
+Programmer who repaired the defect: Matt Bradburn
+Verification of Resolution Correctness: Zach Olawski
+Date of Verification: 12/12

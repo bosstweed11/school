@@ -1,0 +1,8 @@
+Defect:Adding a Train causing a Null pointer
+Defect Number: 5
+Name of tester: Jim Trott
+Date: 12/6
+Resolution: Traced the code and found a logical error that there was no initialized Train
+Programmer who repaired the defect: Matt Bradburn
+Verification of Resolution Correctness: Jim Trott
+Date of Verification: 12/6

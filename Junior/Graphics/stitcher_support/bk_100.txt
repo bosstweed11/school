@@ -1,0 +1,28 @@
+35	00:00:00.00
+BK 100%	Best Splits	Best Run
+Spiral Mountain	00:02:14.44	00:02:19.53
+|		
+Mumbo's Mountain	00:07:03.70	00:09:23.23
+|		
+Treasure Trove Cove	00:11:54.49	00:21:17.72
+|		
+Clanker's Cavern	00:13:55.88	00:35:13.60
+|		
+Bubblegloop Swamp	00:21:36.06	00:56:49.66
+|		
+Freezeezy Peak 1	00:06:02.69	01:02:52.35
+|		
+Gobi's Valley	00:18:28.82	01:21:21.17
+|		
+Mad Monster Mansion	09:01:41.76	00:00:00.00
+|		
+Freezeezy Peak 2	09:01:31.37	00:00:00.00
+|		
+Rusty Bucket Bay	09:01:41.76	00:00:00.00
+|		
+Click Clock Wood	09:00:56.18	00:00:00.00
+|		
+Furnace Fun	09:00:56.18	00:00:00.00
+|		
+Grunty	09:01:51.88	00:00:00.00
+|		

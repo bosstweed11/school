@@ -1,0 +1,24 @@
+CS 1501 Assignment Information Sheet
+
+Name: Andrew Beers
+
+Assignment Number: 3
+
+Program Due Date: 7/3
+
+Handed in Date: 7/3
+
+JDK Version: 1.6
+
+Source code file name(s): LZWmod.java, LZW.java, BinaryStdIn.java, BinaryStdOut.java, TST.java, StdIn.java, StdOut.java, Queue.java
+
+Compiled (.jar or .class) file name(s): LZWmod.class, LZW.class, BinaryStdIn.class, BinaryStdOut.class, TST.class, StdIn.class, StdOut.class, Queue.class
+
+Does your program compile without error?: yes
+
+Does your program run without error?: no
+
+Additional comments (including problems and extra credit): 
+-expand on 'm' is off, frustratingly I don't have the time to finish it, but I seem to be one bit off ( i don't know how 1 bit? i feel like this increment would be more natural at 9 or 16 ) at the point when my dictionary is full on the monitoring scheme. the one bit off is from compress to expand when counting the bits I have 1 more bit tallied for counting bits in the compressed file than bits i think i put into the file while compressing. I think that my compress code for 'm' is correct though, as my results made sense to me.
+
+- i mention in my paper but I also included Assig4results.xlsx that stores my results for each file, as i think sending like this is much clearer then trying to pack them all in the docx file.

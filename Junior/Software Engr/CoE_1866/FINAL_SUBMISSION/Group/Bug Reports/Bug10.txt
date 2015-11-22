@@ -1,0 +1,8 @@
+Defect:Authority of yard returning a null pointer
+Defect Number: 1
+Name of tester: Zach Olawski
+Date: 12/12
+Resolution: Solve equations for correct units (km/h from m/s)
+Programmer who repaired the defect: Matt Bradburn
+Verification of Resolution Correctness: Zach Olawski
+Date of Verification: 12/13

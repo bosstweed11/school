@@ -1,0 +1,8 @@
+Defect:Structure for storing Train Controllers can not handle all functionality
+Defect Number: 3
+Name of tester: Jim Trott
+Date: 12/3
+Resolution: Changed from an ArrayList to a Hashmap, to directly remove or add Trains by ID
+Programmer who repaired the defect: Andrew Beers
+Verification of Resolution Correctness: Jim Trott
+Date of Verification: 12/4

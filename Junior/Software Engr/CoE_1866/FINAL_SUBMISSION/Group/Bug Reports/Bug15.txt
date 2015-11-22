@@ -1,0 +1,8 @@
+Defect:Train Model speed not updating correctly
+Number: 15
+Name of tester: Caleb Dusenbery 
+Date: 12/13 
+Resolution: Added update functionality back to getSpeed function  
+Programmer who repaired the defect: Caleb
+Verification of Resolution Correctness: Andy Beers
+Date of Verification: 12/13

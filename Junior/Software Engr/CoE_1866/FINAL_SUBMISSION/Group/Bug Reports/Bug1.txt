@@ -1,0 +1,8 @@
+Defect:Using incorrect Train units of motion
+Defect Number: 1
+Name of tester: Andrew Beers
+Date: 12/5
+Resolution: Solve equations for correct units (km/h from m/s)
+Programmer who repaired the defect: Caleb Dusenbery
+Verification of Resolution Correctness: Andrew Beers
+Date of Verification: 12/5

@@ -1,0 +1,101 @@
+opt
+
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	118481
+Total writes to disk:	10272
+
+rand
+
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	216416
+Total writes to disk:	24176
+
+nru - 28
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	226995
+Total writes to disk:	28753
+
+nru - 24
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	224545
+Total writes to disk:	30189
+
+nru - 20
+
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	223429
+Total writes to disk:	32349
+
+nru- 16
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	224640
+Total writes to disk:	34348
+
+nru - 12
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	230051
+Total writes to disk:	36802
+
+aging - 28
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	176141
+Total writes to disk:	15638
+
+aging - 24
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	173121
+
+aging - 20
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	170475
+Total writes to disk:	15113
+
+aging - 16
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	169283
+Total writes to disk:	15113
+
+aging - 12
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	168784
+Total writes to disk:	15073
+
+aging - 8
+Number of Frames:	8
+Total memory accesses:	1000000
+Total page faults:	169217
+Total writes to disk:	15241
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Total writes to disk:	15380

@@ -1,0 +1,8 @@
+Defect:UI does not perform functionality for project
+Defect Number: 4
+Name of tester: Matt Bradburn
+Date: 12/2
+Resolution: CTC has new UI, imports all other modules UIs
+Programmer who repaired the defect: Jim Trott
+Verification of Resolution Correctness: Matt Bradburn
+Date of Verification: 12/5

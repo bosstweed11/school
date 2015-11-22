@@ -1,0 +1,5 @@
+11/17 - Zach
+
+We always have facebook/texting and all sorts of ways to communicate, but this could be could for keeping a simple log of what we talk about (ie I'll do this then, you should work on this now, etc).
+
+My plan for today is to work on OpenAL, and try to play the 1812 overture when the user clicks the screen, turning it off when they click again.

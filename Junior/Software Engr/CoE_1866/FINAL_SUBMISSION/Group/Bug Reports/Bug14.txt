@@ -1,0 +1,5 @@
+Defect:GUI not updating correctly Number: 14
+Name of tester: Jim 
+Date: 12/11 Resolution: Update functionality corrected Programmer who repaired the defect: Jim
+ Verification of Resolution Correctness: Zach Olawski
+Date of Verification: 12/12

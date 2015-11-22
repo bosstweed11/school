@@ -1,0 +1,8 @@
+Defect:10 times speed not working in Train Model
+Defect Number: 1
+Name of tester: Jim Trott
+Date: 12/10
+Resolution: multiplied multiplier by all occurrences of time in the movement equations
+Programmer who repaired the defect: Caleb Dusenbery
+Verification of Resolution Correctness: Jim Trott
+Date of Verification: 12/12

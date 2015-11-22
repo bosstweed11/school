@@ -1,0 +1,10 @@
+Swordsman:IAmNotLeftHanded:1234567:<youremail>:Montoya:Inigo:0
+Spaceman1:BeamMeUp10:7654321:<youremail>:Kirk:James:0
+Spaceman22:EarlGreyHot:2222222:<youremail>:Picard:JeanLuc:0
+DarkSide:IAmYourAdvisor:3333333:acb75@pitt.edu:Skywalker:Anakin:1
+Bearer3:I<3BagEnd:4444444:<youremail>:Baggins:Frodo:0
+ShellHead:IMIronMan:5555555:<youremail>:Stark:Anthony:1
+WebHead:Spidey23:6666666:<youremail>:Parker:Peter:0
+Neo:IAmTheOne:7777777:acb75@pitt.edu:Anderson:Thomas:0
+TheBride:BlackMamba11:8888888:<youremail>:Kiddo:Beatrix:0
+Seeker1:ExpectoPatronum:9999999:<youremail>:Potter:Harry:0

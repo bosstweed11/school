@@ -1,0 +1,8 @@
+Defect: Error in return types
+Defect Number: 1
+Name of tester: Jim Trott
+Date: 12/13
+Resolution: Solve equations for correct units (km/h from m/s)
+Programmer who repaired the defect: Zach Olawski
+Verification of Resolution Correctness: Jim Trott
+Date of Verification: 12/13

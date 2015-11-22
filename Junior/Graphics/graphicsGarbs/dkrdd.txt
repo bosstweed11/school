@@ -1,0 +1,10 @@
+10	00:00:00.00
+DKR DD TR	Best Splits	Best Run
+Ancient Lake	00:00:45.00	00:01:04.74
+|		
+Fossil Canyon	00:01:17.00	00:02:35.88
+|		
+Jungle Falls	00:00:48.00	00:03:40.26
+|		
+Hot Top Volcano	00:01:15.00	00:05:20.30
+|		

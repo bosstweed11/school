@@ -1,0 +1,23 @@
+CS 1501 Assignment Information Sheet
+
+Name: Andrew Beers
+
+Assignment Number: 5
+
+Program Due Date: 7/29
+
+Handed in Date: 7/29
+
+JDK Version: 1.6
+
+Source code file name(s): Assignment5.java, Bag.java, Edge.java, EdgeWeightedGraph.java, graph1.txt, In.java, StdOut.java, LazyPrimMSTTrace.java, MinPQ.java, Queue.java, UF.java, StdIn.java, DijkstraSP.java, IndexMinPQ.java
+
+Compiled (.jar or .class) file name(s): Assignment5.class, Bag.class, Edge.class, EdgeWeightedGraph.class, In.class, StdOut.class, LazyPrimMSTTrace.class, MinPQ.class, Queue.class, UF.class, StdIn.class, DijkstraSP.class, IndexMinPQ.class
+
+Does your program compile without error?: yes
+
+Does your program run without error?: no
+
+Additional comments (including problems and extra credit): 
+- distinct paths works, however on the resulting paths after the first path, the first node is repeated, for instance if the answers were 1->2->3 and 1->4->3, it would show as 1->2->3 and 1->1->4->3
+- dijkstra shortest path doesn't work for most cases, for testing purposes it should be fine to check functionality on graph1.txt the path from vertex 0 -5, that works with removing vertices and changing and adding edge weights, but i can't figure out whats going on with other edges.

@@ -1,0 +1,10 @@
+9
+Snowflake:198:262:10
+Snowflake:301:221:10
+Snowflake:232:185:10
+Snowflake:307:142:10
+Tree:236:271:50
+Tree:74:134:50
+Tree:160:176:50
+Greeting:81:289:30:Edit Text
+House:281:62:30

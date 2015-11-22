@@ -1,0 +1,8 @@
+Defect:Error in Track Model dealing with next blocks on two way tracks
+Defect Number: 12
+Name of tester: Caleb Dusenbery
+Date: 12/5
+Resolution: Changed algorithm and pointers for assigning next blocks given a direction
+Programmer who repaired the defect: Zach Olawski
+Verification of Resolution Correctness: Caleb Dusenbery
+Date of Verification: 12/5

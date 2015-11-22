@@ -1,0 +1,95 @@
+Height: 4
+Nodes: 10
+Max is: 90
+Min is: 15
+Tree is NOT FULL
+Tree is NOT A BST
+Tree is NOT 0 balanced
+Tree is 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+40 50 65 75 90 20 15 60 80 30 
+
+Height: 5
+Nodes: 13
+Max is: 85
+Min is: 10
+Tree is NOT FULL
+Tree is a BST
+Tree is NOT 0 balanced
+Tree is NOT 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+10 15 17 20 25 30 50 55 60 70 75 80 85 
+
+Height: 4
+Nodes: 13
+Max is: 85
+Min is: 10
+Tree is NOT FULL
+Tree is a BST
+Tree is NOT 0 balanced
+Tree is 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+10 15 17 20 25 30 50 55 60 70 75 80 85 
+
+Height: 3
+Nodes: 7
+Max is: 80
+Min is: 5
+Tree is FULL
+Tree is NOT A BST
+Tree is 0 balanced
+Tree is 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+5 10 15 50 40 70 80 
+
+Height: 15
+Nodes: 15
+Max is: 15
+Min is: 1
+Tree is NOT FULL
+Tree is a BST
+Tree is NOT 0 balanced
+Tree is NOT 1 balanced
+Tree is NOT 2 balanced
+Inorder the data is:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+Height: 4
+Nodes: 15
+Max is: 15
+Min is: 1
+Tree is FULL
+Tree is a BST
+Tree is 0 balanced
+Tree is 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+Height: 4
+Nodes: 9
+Max is: Zippy
+Min is: Bogus
+Tree is NOT FULL
+Tree is a BST
+Tree is NOT 0 balanced
+Tree is NOT 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+Bogus Esoteric Melancholy Outrageous Uncertainty Wacky Weasel Zany Zippy 
+
+Height: 4
+Nodes: 9
+Max is: Zippy
+Min is: Bogus
+Tree is NOT FULL
+Tree is a BST
+Tree is NOT 0 balanced
+Tree is 1 balanced
+Tree is 2 balanced
+Inorder the data is:
+Bogus Esoteric Melancholy Outrageous Uncertainty Wacky Weasel Zany Zippy 

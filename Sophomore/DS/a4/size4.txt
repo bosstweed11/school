@@ -1,0 +1,126 @@
+Algorithm: Simple QuickSort
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 1.1505423000000001 sec.
+
+Algorithm: Simple QuickSort
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.0053882 sec.
+
+Algorithm: Simple QuickSort
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 1.1178877999999999 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 0.006808799999999999 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.0099082 sec.
+
+Algorithm: Median of 3 QuickSort(min 5)
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 0.0030162 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 0.007161999999999999 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.0127696 sec.
+
+Algorithm: Median of 3 QuickSort(min 10)
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 0.0029537999999999995 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 0.0040868 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.013876099999999999 sec.
+
+Algorithm: Median of 3 QuickSort(min 20)
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 0.0023349 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 0.0110058 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.0073057999999999994 sec.
+
+Algorithm: Random Pivot QuickSort
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 0.0042878 sec.
+
+Algorithm: MergeSort
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 0.0010393 sec.
+
+Algorithm: MergeSort
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.024337000000000004 sec.
+
+Algorithm: MergeSort
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 0.0081001 sec.
+
+Algorithm: InsertionSort
+Array Size: 32000
+Order: Sorted
+Number of Trials: 10
+Average Time: 3.98E-4 sec.
+
+Algorithm: InsertionSort
+Array Size: 32000
+Order: Random
+Number of Trials: 10
+Average Time: 0.8351103999999999 sec.
+
+Algorithm: InsertionSort
+Array Size: 32000
+Order: Reversed
+Number of Trials: 10
+Average Time: 1.3596499000000002 sec.
+

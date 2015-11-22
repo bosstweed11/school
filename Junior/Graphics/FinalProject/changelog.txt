@@ -1,0 +1,126 @@
+12/7 - Andy (version 28)
+
+-integrated heart and text into main program
+
+-created an intro to the program( when the program starts press 2..5..3..6) 
+BUG: sometimes the "d" in and redraws if you shoot a firework when it just goes out, i don't know why
+
+-hearts have a 1/9 chance of occurring while burst and regular are now equal at 4/9, this will be adjusted with the addition of new firework types
+
+-basic nozzle sparkler added [mapped to aA-iI]
+HELP: can't figure out how to shoot them diagonally, need fizzle sound
+CHECK: make sure i malloced and freed correctly, i tried to copy explosion convention but just make sure its good
+
+-launch sound still needed.
+
+-make nozzles a tiny bit smaller
+
+
+12/5 - Andy (version 22)(so much for getting to version 150)
+
+-2 types made, burst and regular
+
+-1/3 of the time fireworks are bursts
+
+-100% of the time burst fireworks are a solid random color
+
+-2/3 of the time a firework is a typical firework
+
+-if a firework is regular(typical) there is a 50% chance of it having 2 random colors 33% chance of it having a single color, and 16% chance of it being rainbow random colors
+
+-if a firework is shot from the middle nozzle, and is a regular firework, there is a 50% chance of this firework being a "big" firework (radius and quantity increased)
+
+-bursts have 1 sound, fireworks can choose between 2, nothing i have done with sound is special, as in everything involving sound is still up in the air to me.
+
+
+12/3 - Andy (version 20)
+
+-made it so that its not always random colors for each particle, now half of the time they will be like before, and the other half they well have 2 random colors for all particles. 
+
+-changed the vertical buffer to be a little higher
+
+-changed the radius and everything dealing with the explosion, except the cube size, is "randomized".
+
+-changed all nozzles (explosions that come out of them) to be the same now, as i am happy with what came out of cur. (left the code there just in case you wanted it for something). 
+
+-made nozzles smaller to give fireworks a "bigger" feel
+
+-Lastly created two sounds for boom and fizz out, i like boom but fizz out seems slightly off, its hard since the radius changes, the BOOM, needs to be louder or quieter or last shorter or longer, i only have one sound now so its hard to deal with at the moment, maybe i can have like 4 of the same sound that are slightly different and just "bin" them on what random zone the radius lands in? 
+
+
+I'm having second thoughts about other camera angles but we will see. its hard to get the same "screen filling effect". Everything tested is in camera shift of 0.
+
+
+
+11/30 - Andy (version 18)
+
+particles fall slightly differently (randomly ;) ) and the color now fades out, firework looks semi square to me but i think I've just seen it so many times. Higher quantity -> more prominent concentric circles. and I can't tell what density does, doesn't appear to affect the firework at all. its coming along.
+
+
+11/30 - Andy (version 17)
+
+Had to change color params from ints relating to the color index to float arrays of rgb values to get random colors, and for future "dimming" of colors, changing components is easier than making every color in that color array, also i changed height to be half random, check it out. didnt work a whole lot on it but its coming around i think.
+--------------------------------------
+11/17 - Zach (version 4)
+Added fireworks-4.c
+Added fireworks-4.h
+Updated bugs.txt
+
+Might have accidentally adjusted some of the older versions. Sorry if I did.
+
+So this update was because you said you were having some trouble with segfaults.
+
+fireworks-4.c
+	1. Added a my_setup similar to yours, which populates the nozzles array and sets them at different sizes and positions so we can check our scale/translate functions work.
+	2. Added the ability to press '1' and rotate one of the (I believe the 5th) cylinders.
+	3. Added draw_nozzles, which sets curr_rs and curr_vs correctly and then displays them.
+	4. Added draw_objects, which can take in an array of SHAPES and the number to draw, then correctly call the right methods with proper parameters.
+	5. Added draw_shape, which works for cylinders, spheres, cones, and tori.
+	6. Added draw, which works for cubes and houses.
+	7. Added real_* which scale, rotate, or translate appropriately.
+	8. Added make_* which makes the shapes.
+	9. Added draw_quads which draws a single face.
+
+fireworks-4.h
+	1. Added a few MACROs, like NUM_NOZZLES and *_RS, *_VS which keep track of the RS and VS values for different shapes (maybe we want to tesselate spheres quite a bit but not so much for cylinders).
+	2. Added a few MACROs for colors, and an array of color vectors.
+	3. Added the function prototypes.
+
+--------------------------------------
+11/17 - Andy (version 3)
+Changed fireworks.h
+Changed fireworks.c
+
+Fireworks.c-
+	1. Added all of my set_* where * is any transformation we have done, along with matrix_mult
+	2. Added make_cylinder function (see bugs.txt)
+	3. Added my_setup function for a spot to initialize where nozzles are created
+and other future initializing components not dealing with OpenGL directly
+	4. Added create_nozzles to go through the number of nozzles placing them equidistant along the x axis
+	5. Added debug info, if you currently run you should see the x and y values of where the nozzles would be.
+
+Fireworks.h-
+	1. Added function prototypes for all above functions
+	2. Added macros for M_PI, NUM_NOZZLES
+
+Copies folder:
+	I am sticking to versions, as in the numbers will reflect the change log inputs, so fireworks.c skipped 2 because if we would go back we would think fireworks.c 2 and fireworks.h 2 go together which is NOT always true
+
+if i missed something it is most likely commented in the code so check it out then
+
+
+--------------------------------------
+11/17 - Andy (version 2)
+
+Changed fireworks.h.
+Added struct nozzle so there is a position at which to shoot off fireworks
+
+
+--------------------------------------
+11/17 - Zach (version 1)
+
+Added fireworks.c and fireworks.h.
+Fireworks.h has a pretty good amount of content- all the structs, some macros, and some function prototypes.
+Fireworks.c is pretty sparse- I just made a Fireworks object and tried to access an instance variable in it. There's a few other things but there's nothing at all I'm attached to except for 'q' to quit.
+I also made a 'copies' folder with 'fireworks-1'.c and .h. I figure we can use this as an easy way to do revision control. When you post to the changelog, note what version you are (I'm version 1) and make -x versions of your files. We'll still be able to go through dropbox.com to get old versions, but this is a little quicker
+Added bugs.txt and ideas_plans_etc.txt, which are both empty.

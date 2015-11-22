@@ -1,0 +1,8 @@
+Defect:Train not stopping
+Defect Number: 8
+Name of tester: Matt Bradburn
+Date: 12/12
+Resolution: Searched in the Code for a logic error of mutual exclusion
+Programmer who repaired the defect: Andrew Beers
+Verification of Resolution Correctness: Matt Bradburn
+Date of Verification: 12/13

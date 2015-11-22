@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test of Multiple Submits</title>
+<script type = "text/javascript">
+// CS 1520 Summer 2012
+// Checking the parts of the form relevant to the submit button that
+// was pressed.
+
+function checkFields(sub)
+{
+   theform = document.forms[0];
+   theid = theform.elements[sub];
+   ok = true;
+   if (theid.value == "")
+   {
+       alert(theid.name +  " requires a value");
+       theid.focus();
+       ok = false;
+   }
+   // Even though the submission may ultimately fail, we can still have this
+   // method return true, since it has terminated correctly.
+   return true;
+}
+
+// Simply return the ok value that was previously set by the checkFields
+// method above
+function checkcheck()
+{
+   alert("Submission is " + ok);
+   return ok;
+}
+</script>
+</head>
+<body>
+<script type = "text/javascript">
+   alert("About to render theForm");
+   // In this case, since there is only one form, before submission
+   // testing, we have to indicate which of the submit buttons was
+   // in fact clicked.  We can do this with the onclick attribute, 
+   // as shown below.  Note the arguments (0, 2 and 4).  This is
+   // because every other form element is a submit and we are accessing
+   // the elements by index.
+</script>
+<form name="theForm" 
+      action="msub.php" 
+      method="POST">
+<h2>Enter your form data below:</h2>
+ID0: <input type = "text" name = "id0" size = "30">
+<input type = "submit" name = "Submit0" value = "Submit 0"
+              onclick = "return checkFields(0)"><br />
+ID1: <input type = "text" name = "id1" size = "30">
+<input type = "submit" name = "Submit1" value = "Submit 1"
+              onclick = "return checkFields(2)"><br />
+ID2: <input type = "text" name = "id2" size = "30">
+<input type = "submit" name = "Submit2" value = "Submit 2"
+              onclick = "return checkFields(4)"><br />
+</form>
+<br />
+<script type = "text/javascript">
+   var ok = false;
+   document.theForm.onsubmit = checkcheck;
+</script>
+</body>
+</html>

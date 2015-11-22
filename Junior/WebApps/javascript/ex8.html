@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Eighth JavaScript Example (MUSIC POLL)</title>
+<!-- 
+     This html file sets up a page for a simple music poll.  A nice exercise
+     would be for you to write a PHP script that will process this form
+     and keep track of the results.
+     -->
+<script type = "text/javascript">
+// This handout is using (mostly) DOM 0, which is not an official DOM standard
+// but is still widely used.  See other handouts for demonstrations of some
+// DOM 1 and DOM 2 access.
+
+// This function does the following:
+// 1) Returns false if "other" is checked and no answer is provided
+// 2) Returns false if "other" is checked and the answer matches
+//    one of the other choices
+// 3) Tells the user if a write-in choice is entered but "other" was
+//    not selected (but still sends the form)
+function checkData()
+{
+     var elts = document.pollForm.elements;
+     // Using a specific index (9) is not a good idea, since adding new choices
+     // would cause the value to change.  We will see later how to look at specific
+     // elements to process this in a more precise way.
+     if (elts[9].checked)
+     {
+        var theValue = document.pollForm.choice.value;
+        if (theValue == "")
+        {
+           alert("You must enter a choice");
+           document.pollForm.choice.focus();
+           return false;
+        }
+        else
+        {
+           // Make case consistent before comparing write-in entry to
+           // listed choices
+           theValue = theValue.toUpperCase();
+           // Same issue as above -- processing 9 elements here is not scalable.
+           for (var i = 0; i < 9; i++)
+           {
+               var currValue = document.pollForm.elements[i].value;
+               currValue = currValue.toUpperCase();
+               if (theValue == currValue)
+               {
+                   alert("You cannot write in a listed choice!");
+                   document.pollForm.choice.value = "";
+                   document.pollForm.choice.focus();
+                   return false;
+               }
+           }
+           return true;
+       }
+     }
+     else if (!elts[9].checked && document.pollForm.choice.value != "")
+     {
+           alert("Write-in not selected -- text ignored");
+           return true;
+     }
+     else return true;
+}
+
+function comment(val)
+{
+     switch (val)
+     {
+          case 1: alert("Excellent choice!");
+                  break;
+          case 2: alert("Outstanding album!");
+                  break;
+          case 3: alert("Quite an intense choice!");
+                  break;
+          case 4: alert("Mesmerizing choice!");
+                  break;
+     }
+}
+
+function comment2()
+{
+     // This alert is not actually true -- there are a few ways that
+     // you can choose the option despite this warning
+     alert("You are not allowed to select this choice!");
+}
+</script>
+</head>
+<body>
+<h1>Welcome to the Music Poll!</h1>
+<p></p>
+<form name = "pollForm" action = "process.php"
+                        method = "POST" onsubmit = "return checkData()">
+Please answer the question below, then submit to see the results so far
+<p>What is the best album ever made?</p>
+<input type = "radio" name = "albums" value = "Sergeant Peppers (Beatles)"
+       onClick = "comment(1)">
+       Sergeant Peppers (Beatles) <br/>
+<input type = "radio" name = "albums" value = "Physical Grafitti (Led Zeppelin)"
+       onmouseover = "comment2()">
+       Physical Grafitti (Led Zeppelin) <br/>
+<input type = "radio" name = "albums" value = "The Joshua Tree (U2)">
+       The Joshua Tree (U2) <br/>
+<input type = "radio" name = "albums" value = "And Justice for All (Metallica)"
+       onClick = "comment(3)">
+       And Justice for All (Metallica) <br/>
+<input type = "radio" name = "albums" value = "Ok Computer (Radiohead)"
+       onClick = "comment(4)">
+       Ok Computer (Radiohead) <br/>
+<input type = "radio" name = "albums" value = "Fumbling Towards Ecstacy (Sarah McLachlan)"
+       onClick = "comment(2)">
+       Fumbling Towards Ecstacy (Sarah McLachlan) <br/>
+<input type = "radio" name = "albums" value = "Remain in Light (Talking Heads)">
+       Remain in Light (Talking Heads) <br/>
+<input type = "radio" name = "albums" value = "The Lion and the Cobra (Sinead OConnor)">
+       The Lion and the Cobra (Sinead OConnor) <br/>
+<input type = "radio" name = "albums" value = "The Downward Spiral (NIN)"
+       onClick = "comment(3)">
+       The Downward Spiral (NIN) <br/>
+<input type = "radio" name = "albums" value = "other (fill in blank)" checked = "checked">
+       other (fill in blank)<br/>
+Write-in choice:
+<input type = "text" name = "choice" value = "">
+<p></p>
+<input type = "submit" name = "Submit">
+<input type = "reset" name = "Reset">
+<p></p>
+</form>
+<script type = "text/javascript">
+     //document.pollForm.choice.focus();
+     //document.pollForm.onsubmit = checkData;
+</script>
+<hr/>
+</body>
+</html>

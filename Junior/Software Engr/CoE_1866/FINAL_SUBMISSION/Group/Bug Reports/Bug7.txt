@@ -1,0 +1,8 @@
+Defect:Not correctly saving information into a HashMap
+Defect Number: 7
+Name of tester: Zach Olawski
+Date: 12/11
+Resolution: Solve equations for correct units (km/h from m/s)
+Programmer who repaired the defect: Andrew Beers
+Verification of Resolution Correctness: Zach Olawski
+Date of Verification: 12/11

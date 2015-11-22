@@ -1,0 +1,86 @@
+void my_free(void *ptr){
+	printf("ENTER FREE\n\n");
+	curr =(NODE *)(ptr-sizeof(NODE));
+	
+	
+	curr->free=0;
+	
+	if(!(((curr->next)->free==0)&&((curr->prev)->free==0))){
+	
+	if(curr !=tail){
+		
+		if(((curr->next)->free) ==0&& curr!=head){
+			(curr->next)->size = (curr->size + (curr->next)->size+sizeof(NODE));
+			(curr->prev)->next = curr->next;
+			(curr->next)->prev = curr->prev;
+			printf("next coal\n");
+		}
+		else if(((curr->next)->free) ==0&& curr==head){
+		
+			(curr->next)->size = (curr->size + (curr->next)->size+sizeof(NODE));
+			head = curr->next;
+			(curr->next)->prev=NULL;
+			printf("next coal\n");
+		
+		}
+		
+	
+		if((((curr->prev)->free)==0)&& curr !=head){
+			(curr->prev)->size = (curr->size +(curr->prev)->size+sizeof(NODE));
+			(curr->next)->prev = curr->prev;
+			(curr->prev)->next =curr->next;
+			printf("prev coal\n");
+		}
+	}
+	else{
+		
+		if((((curr->prev)->free)==0)&& curr !=head){
+			(curr->prev)->size = (curr->size +(curr->prev)->size +sizeof(NODE));
+			tail = curr->prev;
+			(curr->prev)->next = NULL;
+			printf("prev coal\n");
+		}
+	
+		
+		
+	}
+	
+	}
+	else{
+	
+		printf("crazy coal\n");
+		
+		curr->size = (curr->next)->size + curr->size + (curr->prev)->size + 2*sizeof(NODE);
+		
+		if((curr->next)==tail){
+			tail = curr;
+			curr->next = NULL;
+			
+		}
+		else{
+			
+			((curr->next)->next)->prev = (curr->next)->prev;
+			curr->next = (curr->next)->next;
+			
+		}
+		
+		if((curr->prev)==head){
+			head = curr;
+			curr->prev = NULL;
+			
+		}
+		else{
+			((curr->prev)->prev)->next = (curr->prev)->next;
+			curr->prev = (curr->prev)->prev;
+		}
+		
+		
+	}
+	
+	if(head == tail){
+		sbrk(-(head->size+sizeof(NODE)));
+	}
+	
+	
+	printf("EXIT FREE\n\n\n");
+}

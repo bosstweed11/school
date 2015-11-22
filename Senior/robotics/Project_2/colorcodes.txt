@@ -1,0 +1,7 @@
+color codes
+
+yellow = c1 fb fe
+orange = 95 ae ea
+blue = b2 bf dd
+green = f2 f8 f1  - this is probably useless
+red = eb 98 ab

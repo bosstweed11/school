@@ -1,0 +1,50 @@
+Theme: Different types
+
+   * Willow
+
+      * Circular array for the trails, a la snake.
+
+         * You can go through the array and increase/decrease brightness to have the outermost particles be the most well lit
+         * Small cube size, high quantity (lol)
+
+   * Sparkler out of the nozzle
+
+
+      * Kinda like trails on the weeping willows, just pick an angle and shoot out crazy colored vectors
+
+
+Screamer
+New field in particle - is_screamer
+in time_out
+  if is_screamer
+     per particle
+       adjust trans_x, trans_y via cylinder
+
+
+nozzle sparkles
+large trail_size
+adjust the ray to make it thinner/thicker
+no trans_y
+do adjust start_x per particle to give it angle
+
+
+Sound:
+Like the other variables, have a range of sounds to choose from, then RNG.
+RNG to adjust volume
+
+Last Minute
+-change color/appearance of nozzles
+-background? (texture map something?)
+
+Priority -
+
+     1.) Willow
+     2.) Screamers
+     3.) fix nozzle sparklers?
+
+Zach
+1. Willow
+2. Screamers
+
+Andy
+1. fix nozzle sparklers?

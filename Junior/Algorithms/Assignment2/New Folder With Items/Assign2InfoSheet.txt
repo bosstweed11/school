@@ -1,0 +1,21 @@
+CS 1501 Assignment Information Sheet
+
+Name: Andrew Beers
+
+Assignment Number: 2
+
+Program Due Date: 6/18
+
+Handed in Date: 6/18
+
+JDK Version: 1.6
+
+Source code file name(s): Assig2A.java, Assig2B.java, Assig2C.java, STInterface.java, DoubleHashST.java, LinearProbingHashST.java, SeparateChainingHashST.java, SequentialSearchST.java, Queue.java
+
+Compiled (.jar or .class) file name(s): Assig2A.class, Assig2B.class, Assig2C.class, DoubleHashST.class, LinearProbingHashST.class,Queue.class, Queue$1.class, Queue$FIFOIterator.class, Queue$Node.class, SeperateChainingHashST.class, SequentialSearchST.class, SequentialSearchST$Node.class, STInterface.class
+
+Does your program compile without error?: yes
+
+Does your program run without error?: yes
+
+Additional comments (including problems and extra credit): 

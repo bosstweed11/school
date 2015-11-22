@@ -1,0 +1,22 @@
+UNRESOLVED:
+
+1. 11/17 - Zach
+		OpenAL is a huge pain in the ass, uses deprecated methods, and sucks.
+Potential Solutions?
+		Switch to a different kind of audio player (perhaps limiting our ability to be cross-platform compatible if we pick some native OSX method).
+		Find a decent tutorial (I emailed the two 1566ers who did the presentation).
+Importance?
+		Not urgent, but sound is completely crucial to the project.
+
+
+FIXED:
+1.11/17 - Andy
+		first bug, I'm so pround :|
+
+		create_nozzles() calls make_cylinder()
+
+		The bug is related to using pointers to point to other pointers 
+		(NOZZLE has a SHAPE pointer(to point to the cylinder that will be created))
+		I cannot set v_start field of SHAPE to start my rotations in creating the cylinder, without getting a seg fault. I think i have to malloc v_start, but I've never had to malloc for struct arrays in previous projects so I don't know what is wrong.
+Fixed 11/17 - Zach
+		I just kinda replaced the stuff with code I'd used from hw5 (and stolen from texture_demo before that).

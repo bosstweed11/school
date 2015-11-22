@@ -1,0 +1,7 @@
+package MyTreePackage;
+
+public class ComparableBinaryTree<T extends Comparable<? super T>> extends BinaryTree<T> implements ComparableTreeInterface<T>, java.io.Serializable
+{
+
+
+}
