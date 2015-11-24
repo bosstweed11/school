@@ -1,7 +1,7 @@
 // This program was written by Andrew Beers on 10/13/11
 import java.util.*;
 import java.io.*;
-public class Assig2
+public class Assignment2
 {
 
 	public static void main (String [] args) throws IOException

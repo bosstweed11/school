@@ -1,0 +1,5 @@
+Assignment 4 CS 0401
+
+Create a Java Swing version of the hangman game that allows for free letters
+
+Exercises handling states even more, handles parsing text inputs, handling wins and losses, writing to files, and working with Java Swing.

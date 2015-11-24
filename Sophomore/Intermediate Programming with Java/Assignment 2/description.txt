@@ -1,0 +1,5 @@
+Assignment 2 CS 0401
+
+Create a quiz game client that asks a user questions, gives repeat user their previous stats, and deals with states.
+
+Exercises handling states, using external classes, reading and writing to text files, handling text input.

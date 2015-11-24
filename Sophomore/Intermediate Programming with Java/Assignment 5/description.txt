@@ -1,0 +1,5 @@
+Assignment 5 CS 0401
+
+Create a paint program in Java Swing, with winter object such as houses, trees, snowmen, stars, and text
+
+Exercises creating geometric shapes, using interfaces and parent classes, handling objects, using a custom output file to maintain a program, creating an entire program.

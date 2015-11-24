@@ -8,8 +8,8 @@ stew
 9
 5
 andy
-40
-19
+0
+1
 paul
 1
 2

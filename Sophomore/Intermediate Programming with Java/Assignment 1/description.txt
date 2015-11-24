@@ -1,0 +1,5 @@
+Assignment 1 CS 0401
+
+Create a Gas station client to take an order, calculate a total, apply tax and give change.
+
+Exercises using math in programming and managing variables and an loop of an arbitrary amount of customers.

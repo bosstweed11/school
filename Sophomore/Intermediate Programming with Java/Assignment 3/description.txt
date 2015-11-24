@@ -1,0 +1,7 @@
+Assignment 3 CS 0401
+
+Create a command line hangman game that allows for free letters
+
+Exercises handling states even more, handles parsing text inputs, handling wins and losses and writing to files. No GUI.
+
+Note: Assign3.class is the original class file, I found Assign3.java in the Assignment 4 folder (GUI version) and its a little different but not much.
