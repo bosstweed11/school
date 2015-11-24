@@ -1,5 +1,5 @@
 # School
-All of my college projects
+A portion of my college programming assignments
 
 A list of all of the programming classes I took in college, with the main assignments listed. 
 Each Assignment folder will have a description.txt to explain the purpose of each program and some skills it helped me learn.
