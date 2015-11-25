@@ -1,0 +1,5 @@
+Assignment 5 CS 0445
+
+Evaluate different types of trees, bst's, full trees, balanced trees
+
+Exercises tree knowledge

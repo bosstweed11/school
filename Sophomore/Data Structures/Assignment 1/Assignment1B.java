@@ -6,7 +6,7 @@
 
 import java.util.*;
 
-public class Assig1B
+public class Assignment1B
 {
 	public static void main(String [] args)
 	{

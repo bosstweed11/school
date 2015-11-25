@@ -1,0 +1,5 @@
+Assignment 3 CS 0445
+
+Create a math parser that ends with a period. for example 1+1. gives 2 and so on.
+
+Exercises parsing text, handling errors, and recursion

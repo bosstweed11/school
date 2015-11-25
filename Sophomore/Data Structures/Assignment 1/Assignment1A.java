@@ -3,7 +3,7 @@
 // MyBuffer class.  Look carefully at all of the method calls so that
 // you create your MyBuffer methods correctly.  For example, note the
 // constructor calls and the toString() method call.
-public class Assig1A
+public class Assignment1A
 {
 	public static void main(String [] args)
 	{

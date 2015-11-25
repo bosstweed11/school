@@ -1,0 +1,5 @@
+Assignment 4 CS 0445
+
+Evaluate sorting algorithms on different sets of data and a different amount of trials
+
+Exercies timing functions, outputting and interpretting data

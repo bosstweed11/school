@@ -4,7 +4,7 @@
 // that shown in A5Out.txt exactly.
 import java.util.*;
 import MyTreePackage.*;
-public class Assig5
+public class Assignment5
 {
 	public static void main(String [] args)
 	{

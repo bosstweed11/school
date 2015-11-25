@@ -1,0 +1,5 @@
+Assignment 2 CS 0445
+
+Create a banana crate selling service, that monitors the top crate to see if it has expired and removes it. Money is calculated based on how many crates are sold.
+
+Exercises utilizing a Stack, and managing multiple stacks.

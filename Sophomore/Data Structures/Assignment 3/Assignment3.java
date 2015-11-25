@@ -1,6 +1,6 @@
 //Written by Andrew Beers 2/24/12
 import java.util.*;
-public class A3
+public class Assignment3
 {
 //Main of the program
 //Variables to monitor parenthesis
@@ -20,7 +20,7 @@ private static String errormsg=null;
             System.out.println("Please enter an expression: ");
             exp = s.nextLine();
             //Create A3 object of the expression
-            A3 A = new A3(exp);
+            Assignment3 A = new Assignment3(exp);
             //Try catch block for exceptions
             try
             {
@@ -50,6 +50,7 @@ private static String errormsg=null;
             //if exception, print invalid and prompt for repeat
             catch(Exception a)
             {
+            	a.printStackTrace();
             	errormsg = "String format error";
             	System.out.println("Your expression was invalid. " + errormsg);
             	System.out.println("Again?(1,0)");
@@ -64,7 +65,7 @@ private static String errormsg=null;
 	private static boolean exception=false,out,nodig,paren,dieparens;
 	
 	// Constructor for class object
-	public A3(String input)
+	public Assignment3(String input)
 	{
 		expression = new String(input);
 		index = 0;

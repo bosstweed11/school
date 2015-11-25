@@ -2,7 +2,7 @@
 
 import java.util.*;
 import java.io.*;
-public class Assig4 implements Runnable
+public class Assignment4 implements Runnable
 {
 	private static int size,trials;
 	private static Integer [] S;
@@ -17,10 +17,10 @@ public class Assig4 implements Runnable
 	//Main program, start new class object
 	public static void main(String [] args) throws IOException
 	{
-		Assig4 prog = new Assig4();
+		Assignment4 prog = new Assignment4();
 	}
 	//Run class object through a thread to account for stack manipulation
-	public Assig4() throws IOException
+	public Assignment4() throws IOException
 	{
 		(new Thread(this)).start();
 	}

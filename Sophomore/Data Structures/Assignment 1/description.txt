@@ -1,0 +1,5 @@
+Assignment 1 CS 0445
+
+Create the internal workins for the Bag data structure. See what it means to add and remove an element from a data structure
+
+Exercises utilizing a simple data structure, how to keep the storing of data outside of the details of your main program.
