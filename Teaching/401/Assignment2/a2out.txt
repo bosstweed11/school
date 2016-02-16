@@ -1,0 +1,231 @@
+(42) A2Solution > ls *.java
+Assig2.java*	Die.java	Player.java*
+(43) A2Solution > javac Assig2.java
+(44) A2Solution > ls *.class
+Assig2.class	Die.class	Player.class
+(45) A2Solution > ls *.txt
+Herbert.txt	Marge.txt
+(46) A2Solution > cat Herbert.txt
+Wackiman
+Herbert
+47.0
+7
+2
+(47) A2Solution > cat Marge.txt
+Margelopolis
+Marge
+80.0
+1
+0
+(48) A2Solution > java Assig2
+Please enter your first name: 
+Herbert
+Welcome Back Herbert
+Welcome to Over and Under!
+Here is your current information: 
+	Name: Herbert Wackiman
+	Money left: $47.00
+	Total Rounds Played: 7
+	Total Rounds Won: 2
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $47.00) > 50
+How much would you like to bet? (<= $47.00) > -10
+How much would you like to bet? (<= $47.00) > 20
+Select your choice: O(ver), U(nder), S(even) > s
+The dice have been rolled...and the result is...
+Die1: 3 Die2: 4 => Total: 7
+...SEVEN!...
+You have WON this round!
+You have won $80.00
+Your updated money value is: $127.00
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $127.00) > 50
+Select your choice: O(ver), U(nder), S(even) > O
+The dice have been rolled...and the result is...
+Die1: 4 Die2: 3 => Total: 7
+...SEVEN!...
+You have LOST this round!
+You have lost $50.00
+Your updated money value is: $77.00
+
+Would you like to play a round? (y/n) > n
+
+Thank you for playing Over and Under!
+Here is your updated information: 
+	Name: Herbert Wackiman
+	Money left: $77.00
+	Total Rounds Played: 9
+	Total Rounds Won: 3
+
+During this game you earned $30.00
+During this game you won 1 rounds out of 2 total 
+(49) A2Solution > java Assig2
+Please enter your first name: 
+Herbert
+Welcome Back Herbert
+Welcome to Over and Under!
+Here is your current information: 
+	Name: Herbert Wackiman
+	Money left: $77.00
+	Total Rounds Played: 9
+	Total Rounds Won: 3
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $77.00) > 77
+Select your choice: O(ver), U(nder), S(even) > s
+The dice have been rolled...and the result is...
+Die1: 6 Die2: 4 => Total: 10
+...OVER!...
+You have LOST this round!
+You have lost $77.00
+Your updated money value is: $0.00
+
+We're sorry but you have no money to play!
+
+Thank you for playing Over and Under!
+Here is your updated information: 
+	Name: Herbert Wackiman
+	Money left: $0.00
+	Total Rounds Played: 10
+	Total Rounds Won: 3
+
+During this game you earned ($77.00)
+During this game you won 0 rounds out of 1 total 
+(50) A2Solution > java Assig2
+Please enter your first name: 
+Herbert
+Welcome Back Herbert
+Welcome to Over and Under!
+Here is your current information: 
+	Name: Herbert Wackiman
+	Money left: $0.00
+	Total Rounds Played: 10
+	Total Rounds Won: 3
+
+We're sorry but you have no money to play!
+
+Thank you for playing Over and Under!
+Here is your updated information: 
+	Name: Herbert Wackiman
+	Money left: $0.00
+	Total Rounds Played: 10
+	Total Rounds Won: 3
+
+During this game you earned $0.00
+During this game you won 0 rounds out of 0 total 
+(51) A2Solution > java Assig2
+Please enter your first name: 
+Ingmar
+Welcome New Player!
+Please enter your information below:
+Last Name: Inglenook
+Initial money: 100
+Welcome to Over and Under!
+Here is your current information: 
+	Name: Ingmar Inglenook
+	Money left: $100.00
+	Total Rounds Played: 0
+	Total Rounds Won: 0
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $100.00) > 20
+Select your choice: O(ver), U(nder), S(even) > u
+The dice have been rolled...and the result is...
+Die1: 3 Die2: 6 => Total: 9
+...OVER!...
+You have LOST this round!
+You have lost $20.00
+Your updated money value is: $80.00
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $80.00) > 20
+Select your choice: O(ver), U(nder), S(even) > u
+The dice have been rolled...and the result is...
+Die1: 6 Die2: 2 => Total: 8
+...OVER!...
+You have LOST this round!
+You have lost $20.00
+Your updated money value is: $60.00
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $60.00) > 20
+Select your choice: O(ver), U(nder), S(even) > u
+The dice have been rolled...and the result is...
+Die1: 6 Die2: 5 => Total: 11
+...OVER!...
+You have LOST this round!
+You have lost $20.00
+Your updated money value is: $40.00
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $40.00) > 20
+Select your choice: O(ver), U(nder), S(even) > u
+The dice have been rolled...and the result is...
+Die1: 1 Die2: 3 => Total: 4
+...UNDER!...
+You have WON this round!
+You have won $20.00
+Your updated money value is: $60.00
+
+Would you like to play a round? (y/n) > q
+
+Thank you for playing Over and Under!
+Here is your updated information: 
+	Name: Ingmar Inglenook
+	Money left: $60.00
+	Total Rounds Played: 4
+	Total Rounds Won: 1
+
+During this game you earned ($40.00)
+During this game you won 1 rounds out of 4 total
+(52) A2Solution > java Assig2
+Please enter your first name: 
+Ingmar
+Welcome Back Ingmar
+Welcome to Over and Under!
+Here is your current information: 
+	Name: Ingmar Inglenook
+	Money left: $60.00
+	Total Rounds Played: 4
+	Total Rounds Won: 1
+
+Would you like to play a round? (y/n) > y
+How much would you like to bet? (<= $60.00) > 30
+Select your choice: O(ver), U(nder), S(even) > W
+Select your choice: O(ver), U(nder), S(even) > q
+Select your choice: O(ver), U(nder), S(even) > p
+Select your choice: O(ver), U(nder), S(even) > o
+The dice have been rolled...and the result is...
+Die1: 6 Die2: 1 => Total: 7
+...SEVEN!...
+You have LOST this round!
+You have lost $30.00
+Your updated money value is: $30.00
+
+Would you like to play a round? (y/n) > n
+
+Thank you for playing Over and Under!
+Here is your updated information: 
+	Name: Ingmar Inglenook
+	Money left: $30.00
+	Total Rounds Played: 5
+	Total Rounds Won: 1
+
+During this game you earned ($30.00)
+During this game you won 0 rounds out of 1 total 
+(53) A2Solution > ls *.txt
+Herbert.txt	Ingmar.txt	Marge.txt
+(54) A2Solution > cat Herbert.txt
+Wackiman
+Herbert
+0.0
+10
+3
+(55) A2Solution > cat Ingmar.txt
+Inglenook
+Ingmar
+30.0
+5
+1

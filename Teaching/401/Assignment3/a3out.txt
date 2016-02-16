@@ -1,0 +1,172 @@
+assig3 > java Assig3 sample.txt
+Welcome to the Quiz Program! Good Luck!
+
+Question 0: 
+How many licks does it take to get to the tootsie roll center of a tootsie pop?
+Answers: 
+0: one
+1: two
+2: three
+3: four
+
+Your answer? (enter a number): -2
+Your answer? (enter a number): 5
+Your answer? (enter a number): 2
+
+Question 1: 
+What is your name?
+Answers: 
+0: Arthur, King of the Britons
+1: Sir Lancelot the Brave
+2: Sir Robin the Not-Quite-So-Brave-As-Sir Lancelot
+
+Your answer? (enter a number): 2
+
+Question 2: 
+Who's on first?
+Answers: 
+0: What
+1: Why
+2: Because
+3: Who
+4: I don't know
+
+Your answer? (enter a number): 3
+
+Question 3: 
+Which of the following is a terror of the fire swamp?
+Answers: 
+0: Lightning sand
+1: Flame spurt
+2: R.O.U.S.
+3: All of the above
+
+Your answer? (enter a number): 1
+
+Question 4: 
+Who is the all-time greatest pilot?
+Answers: 
+0: Manfred von Richthofen
+1: Chuck Yeager
+2: Hiraku Sulu
+3: Luke Skywalker
+4: Kara Thrace
+5: Charles Lindbergh
+
+Your answer? (enter a number): 4
+
+Thanks for your answers!
+Here are your results:
+
+Question: How many licks does it take to get to the tootsie roll center of a tootsie pop?
+Answer: three
+Player Guess: three
+	Result: CORRECT! Great Work!
+
+Question: What is your name?
+Answer: Arthur, King of the Britons
+Player Guess: Sir Robin the Not-Quite-So-Brave-As-Sir Lancelot
+	Result: INCORRECT! Remember the answer for next time!
+
+Question: Who's on first?
+Answer: Who
+Player Guess: Who
+	Result: CORRECT! Great Work!
+
+Question: Which of the following is a terror of the fire swamp?
+Answer: All of the above
+Player Guess: Flame spurt
+	Result: INCORRECT! Remember the answer for next time!
+
+Question: Who is the all-time greatest pilot?
+Answer: Kara Thrace
+Player Guess: Kara Thrace
+	Result: CORRECT! Great Work!
+
+
+Your overall performance was: 
+	Right: 3
+	Wrong: 2
+	Pct: 0.6
+
+Here are some cumulative statistics: 
+Question: How many licks does it take to get to the tootsie roll center of a tootsie pop?
+	Times Tried: 14
+	Times Correct: 5
+	Percent Correct: 35.7%
+Question: What is your name?
+	Times Tried: 14
+	Times Correct: 6
+	Percent Correct: 42.9%
+Question: Who's on first?
+	Times Tried: 14
+	Times Correct: 7
+	Percent Correct: 50.0%
+Question: Which of the following is a terror of the fire swamp?
+	Times Tried: 14
+	Times Correct: 4
+	Percent Correct: 28.6%
+Question: Who is the all-time greatest pilot?
+	Times Tried: 14
+	Times Correct: 9
+	Percent Correct: 64.3%
+
+Easiest Question: 
+Question: Who is the all-time greatest pilot?
+	Times Tried: 14
+	Times Correct: 9
+	Percent Correct: 64.3%
+Hardest Question: 
+Question: Which of the following is a terror of the fire swamp?
+	Times Tried: 14
+	Times Correct: 4
+	Percent Correct: 28.6%
+
+assig3 > cat sample.txt
+How many licks does it take to get to the tootsie roll center of a tootsie pop?
+4
+one
+two
+three
+four
+2
+14
+5
+What is your name?
+3
+Arthur, King of the Britons
+Sir Lancelot the Brave
+Sir Robin the Not-Quite-So-Brave-As-Sir Lancelot
+0
+14
+6
+Who's on first?
+5
+What
+Why
+Because
+Who
+I don't know
+3
+14
+7
+Which of the following is a terror of the fire swamp?
+4
+Lightning sand
+Flame spurt
+R.O.U.S.
+All of the above
+3
+14
+4
+Who is the all-time greatest pilot?
+6
+Manfred von Richthofen
+Chuck Yeager
+Hiraku Sulu
+Luke Skywalker
+Kara Thrace
+Charles Lindbergh
+4
+14
+9
