@@ -1,8 +1,30 @@
 // Andrew Beers Assignment 1
 // Pies, Pies, and Pis. A restaurant checkout program
 
+//Todo
+// payment
+// discounts
+// replace amount, don't add to amount
+// macros for prices and discounts and tax
+// break out into functions where i can
+// extra credit
 import java.util.*;
 public class Assignment1 {
+
+	// Price constants
+	public static final double TAX = .06;
+	public static final double PLAIN_SLICE_COST = 10.0;
+	public static final double PEPPERONI_SLICE_COST = 12.0;
+	public static final double CHERRY_PIE_SLICE_COST = 2.0;
+	public static final double CHERRY_PIE_COST = 10.0;
+	public static final double CHARM_COST = 50.0;
+
+	// Discount constants
+	public static final double PEPPERONI_DISCOUNT = PEPPERONI_SLICE_COST - PLAIN_SLICE_COST;
+	public static final double CHERRY_PIE_SLICE_DISCOUNT = 0.25;
+	public static final double CHERRY_PIE_DISCOUNT = 2.00;
+	public static final double CHARM_PERCENT_OFF = 10.0;
+	public static final double PERCENT_OFF_ORDER_OVER_100 = 10.0;
 
 	public static void main(String [] args){
 		boolean again = false;
@@ -49,6 +71,8 @@ public class Assignment1 {
 
 		int tempInput = 0;
 		boolean boughtSomething = false;
+		int paymentAmt;
+		double subTotal;
 
 		// Pizza Variables
 		double pizzaTotal = 0;
@@ -101,7 +125,8 @@ public class Assignment1 {
 				}
 				else {
 					boughtSomething = true;
-					numberOfPlainSlices += tempInput;
+					numberOfPlainSlices = tempInput;
+					//numberOfPlainSlices += tempInput;
 				}
 
 				// Take pepperoni pizza order
@@ -112,7 +137,7 @@ public class Assignment1 {
 				}
 				else {
 					boughtSomething = true;
-					numberOfPepperoniSlices += tempInput;
+					numberOfPepperoniSlices = tempInput;
 				}
 			}
 			else if (menuOptionChoice == 2){
@@ -122,8 +147,8 @@ public class Assignment1 {
 					System.out.println("\tNo cherry pie slices ordered");
 				}
 				else{
-					System.out.println((cherryPieSlices / 6) + " whole cherry pies");
-					System.out.println((cherryPieSlices % 6) + " cherry pie slices");
+					System.out.println("\t" + (cherryPieSlices / 6) + " whole cherry pies");
+					System.out.println("\t" + (cherryPieSlices % 6) + " cherry pie slices");
 				}
 
 				// Take cherry pie order
@@ -136,7 +161,8 @@ public class Assignment1 {
 				}
 				else{
 					boughtSomething = true;
-					cherryPieSlices += tempInput;
+					cherryPieSlices = tempInput;
+					// cherryPieSlices += tempInput;
 				}
 			}
 			else if (menuOptionChoice == 3){
@@ -157,7 +183,8 @@ public class Assignment1 {
 				}
 				else {
 					boughtSomething = true;
-					charmPieces += tempInput;
+					charmPieces = tempInput;
+					// charmPieces += tempInput;
 				}
 			}
 		}
@@ -166,29 +193,44 @@ public class Assignment1 {
 		System.out.println("Here is your subtotal:\n");
 		if (boughtSomething){
 			if (numberOfPlainSlices > 0)
-				System.out.printf("\t %d plain pizzas at $%.2fea.:\t\t\t$%.2f\n",numberOfPlainSlices, plainSliceCost, (numberOfPlainSlices * plainSliceCost));
+				System.out.printf("\t%d plain pizzas at $%.2fea.:\t\t\t$%.2f\n",numberOfPlainSlices, plainSliceCost, (numberOfPlainSlices * plainSliceCost));
 			if (numberOfPepperoniSlices > 0)
-				System.out.printf("\t %d pepperoni pizzas at $%.2fea.:\t\t$%.2f\n",numberOfPepperoniSlices, pepperoniSliceCost, (numberOfPepperoniSlices * pepperoniSliceCost));
+				System.out.printf("\t%d pepperoni pizzas at $%.2fea.:\t\t$%.2f\n",numberOfPepperoniSlices, pepperoniSliceCost, (numberOfPepperoniSlices * pepperoniSliceCost));
 			pizzaTotal = (numberOfPlainSlices * plainSliceCost) + (numberOfPepperoniSlices * pepperoniSliceCost);
 
 			if (cherryPieSlices / 6 > 0)
-				System.out.printf("\t %d whole cherry pies at $%.2fea.:\t\t$%.2f\n",(cherryPieSlices / 6), cherryPieCost, ((cherryPieSlices / 6) * cherryPieCost));
+				System.out.printf("\t%d whole cherry pies at $%.2fea.:\t\t$%.2f\n",(cherryPieSlices / 6), cherryPieCost, ((cherryPieSlices / 6) * cherryPieCost));
 			if (cherryPieSlices % 6 > 0)
-				System.out.printf("\t %d cherry pie slices at $%.2fea.:\t\t$%.2f\n",(cherryPieSlices % 6), cherryPieSliceCost, ((cherryPieSlices % 6) * cherryPieSliceCost));
+				System.out.printf("\t%d cherry pie slices at $%.2fea.:\t\t$%.2f\n",(cherryPieSlices % 6), cherryPieSliceCost, ((cherryPieSlices % 6) * cherryPieSliceCost));
 			pieTotal = ((cherryPieSlices / 6) * cherryPieCost) + ((cherryPieSlices % 6) * cherryPieSliceCost);
 
 			if (charmPieces > 0)
-				System.out.printf("\t %d 14K gold Pi charms at $%.2fea.:\t\t$%.2f\n",charmPieces, charmCost, (charmPieces * charmCost));
+				System.out.printf("\t%d 14K gold Pi charms at $%.2fea.:\t\t$%.2f\n",charmPieces, charmCost, (charmPieces * charmCost));
 			charmTotal = (charmPieces * charmCost);
 
 			System.out.println("\t\t\t\t\t\t\t-------");
-			System.out.printf("\tSubtotal:\t\t\t\t\t$%.2f\n", pizzaTotal + pieTotal + charmTotal);
-			System.out.printf("\tTax:\t\t\t\t\t\t$%.2f\n", (pizzaTotal + pieTotal + charmTotal) * .06);
+			subTotal = pizzaTotal + pieTotal + charmTotal;
+			System.out.printf("\tSubtotal:\t\t\t\t\t$%.2f\n", subTotal);
+			if (isPieCardMember == 1 && subTotal >= 100 ){
+				System.out.printf("\tBonus discount of 10%%:\t\t\t\t($%.2f)\n", subTotal * (PERCENT_OFF_ORDER_OVER_100 / 100));
+				subTotal -= subTotal * (PERCENT_OFF_ORDER_OVER_100 / 100);
+				System.out.println("\t\t\t\t\t\t\t-------");
+				System.out.printf("\tNew subtotal:\t\t\t\t\t$%.2f\n", subTotal);
+			}
+			System.out.printf("\tTax:\t\t\t\t\t\t$%.2f\n", subTotal * .06);
 			System.out.println("\t\t\t\t\t\t\t-------");
-			System.out.printf("\tTotal:\t\t\t\t\t\t$%.2f\n", (pizzaTotal + pieTotal + charmTotal) * 1.06);	
+			System.out.printf("\tTotal:\t\t\t\t\t\t$%.2f\n\n", subTotal * 1.06);
+
+			// Payment
+			do {
+				System.out.print("\n\tPlease enter your payment amount:\t\t$");
+				paymentAmt = scan.nextInt();
+			} while(paymentAmt < subTotal * 1.06);
+			System.out.printf("\tYour change:\t\t\t\t\t$%.2f\n", paymentAmt - subTotal * 1.06);
+			System.out.println("\tThank you for shopping at PP&P!\n");
 		}
 		else {
-			System.out.println("\tNo items purchased! Thanks anyway for stopping!");
+			System.out.println("\tNo items purchased! Thanks anyway for stopping!\n");
 		}
 
 	}
